@@ -59,3 +59,8 @@ uv run ruff check src tests main.py
 For real inference, launch the service and run `test_apis.py` from the parent
 folder with the other services. Its BGE-M3 check runs two batches with all outputs.
 GPU and CPU execution must be validated on the deployment host.
+
+## Original resources
+
+- [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding) — upstream library providing `BGEM3FlagModel`.
+- [BAAI/bge-m3 model card](https://huggingface.co/BAAI/bge-m3) — model weights, usage examples, and model documentation.
